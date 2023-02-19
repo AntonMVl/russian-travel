@@ -1,0 +1,6 @@
+.link__active {
+  text-decoration: underline;
+}
+.link__active:hover {
+  opacity: 0.8;
+}
