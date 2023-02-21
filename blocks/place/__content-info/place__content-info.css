@@ -2,4 +2,22 @@
   display: flex;
   flex-direction: column;
   gap: 26px;
+  max-width: 484px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1279px) {
+  .place__content-info {
+    max-width: 456px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .place__content-info {
+    max-width: 352px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .place__content-info {
+    max-width: 288px;
+    margin: 0 16px 0 16px;
+  }
 }

@@ -1,7 +1,10 @@
 /*Подключение шрифтов*/
 @import url(../vendor/fonts/fonts.css);
-/*Стили Page*/
+/*Стили Body*/
+@import url(../blocks/body/body.css);
+/*Стили Page и Content*/
 @import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
 /*Стили link*/
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/__active/link__active.css);
@@ -10,6 +13,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_enabled/header__lang-link_enabled.css);
 /*Стили Lead*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -27,6 +31,7 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /*Стили Place*/
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__content-info/place__content-info.css);
 @import url(../blocks/place/__image/place__image.css);
