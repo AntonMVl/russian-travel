@@ -16,8 +16,7 @@
 
 **Картинки**
 
-<code>![Путешествие в поезде](../russian-travel/images/lead/lead-polka.jpg)
-</code>
+<code>![Путешествие в поезде](https://github.com/AntonMVl/russian-travel/blob/main/images/lead/lead-polka.jpg?raw=true)</code>
 
 **Authors**
 [- Антон Морохин](https://github.com/AntonMVl)
