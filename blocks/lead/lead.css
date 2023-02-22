@@ -3,18 +3,25 @@
   max-width: 984px;
   text-align: center;
   box-sizing: border-box;
-  margin-bottom: 92px;
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1279px) {
   .lead {
-    max-width: 928px;
-    margin: 48px 48px 92px 48px;
+    max-width: 984px;
+    
+    
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead {
-    margin: 48px 0 88px 0;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding-bottom: 64px;
   }
 }

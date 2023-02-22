@@ -1,3 +1,5 @@
+/*Подключение normalize*/
+@import url(../vendor/normalize.css);
 /*Подключение шрифтов*/
 @import url(../vendor/fonts/fonts.css);
 /*Стили Body*/
@@ -7,7 +9,6 @@
 @import url(../blocks/content/content.css);
 /*Стили link*/
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/__active/link__active.css);
 /*Стили Header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
